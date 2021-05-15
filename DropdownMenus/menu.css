@@ -1,0 +1,54 @@
+/**{
+    box-sizing: border-box;
+}
+*/
+/* The whole menu */
+#menu {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 100%;
+ }
+ /* Each menu name */
+ #menu li {
+    float: left;
+    list-style-type: none;
+    width: 102px;
+    background-color: navajowhite;
+    border: 1px solid black;
+    text-indent: 0px;
+    margin-left: 3px;
+ }
+ /* each main menu link */
+ #menu li a {
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    display: block;
+ }
+ #menu li a:hover {
+    color: navy;
+ }
+ /* The entire submenu */
+ #menu li ul {
+    background-color: silver;
+    margin: 0px;
+    padding: 0px;
+ }
+ /* Each submenu item */
+ #menu li ul li {
+    padding: 0px;
+    margin: 0px;
+    float: none;
+    list-style-type: none;
+    width: 100px;
+    text-indent: 0px;
+    border: none;
+ }
+ #menu li ul li a{
+    color: black;
+    text-decoration: none;
+ }
+ #menu li ul li a:hover{
+    color: black;
+    background-color: aqua;
+ }
